@@ -20,9 +20,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bezkoder.spring.security.postgresql.models.ERole;
-import com.bezkoder.spring.security.postgresql.models.Role;
-import com.bezkoder.spring.security.postgresql.models.User;
+import com.bezkoder.spring.security.postgresql.models.security.ERole;
+import com.bezkoder.spring.security.postgresql.models.security.Role;
+import com.bezkoder.spring.security.postgresql.models.security.User;
 import com.bezkoder.spring.security.postgresql.payload.request.LoginRequest;
 import com.bezkoder.spring.security.postgresql.payload.request.SignupRequest;
 import com.bezkoder.spring.security.postgresql.payload.response.JwtResponse;

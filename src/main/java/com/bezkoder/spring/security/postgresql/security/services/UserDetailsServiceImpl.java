@@ -7,7 +7,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.bezkoder.spring.security.postgresql.models.User;
+import com.bezkoder.spring.security.postgresql.models.security.User;
 import com.bezkoder.spring.security.postgresql.repository.UserRepository;
 
 @Service
